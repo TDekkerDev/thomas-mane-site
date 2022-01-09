@@ -28,9 +28,3 @@
         </nav>
 
     </div>
-    <div id="nep">
-    <h1>Portfolio Thomas dekker</h1> 
-    <br>
-    <br>
-    <h1>work in porogras</h1>
-    </div>
