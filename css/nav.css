@@ -2,6 +2,7 @@ html {
     height: 100%;
 }
 body{
+    text-align: center;
     background-image: linear-gradient(#352838, #141518);
     height: 100%;
     background-repeat: no-repeat;
@@ -112,4 +113,6 @@ input[type=checkbox]{
    .dropdown li:hover {
     background-color: #352838;
    }
-   }
+}
+/*RESPONSIVE NAVBAR MENU ENDS*/
+
