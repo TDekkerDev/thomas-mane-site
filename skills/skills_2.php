@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include '../include/head_skills.php'; ?>
-<link rel="stylesheet" href="../css/wavy_circle.css"> 
+<link rel="stylesheet" href="../css/wavycircle.css"> 
     <title>skills_2</title>
 </head>
 <body>
