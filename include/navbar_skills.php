@@ -16,9 +16,9 @@
         <ul class="dropdown">
         <li><a href="skills_1.php">skills 1 </a></li>
         <li><a href="skills_2.php">skills 2</a></li>
-        <li><a href="skills_3.php">skills 2</a></li>
-        <li><a href="skills_4.php">skills 3</a></li>
-        <li><a href="skills_5.php">skills 4</a></li>
+        <li><a href="skills_3.php">skills 3</a></li>
+        <li><a href="skills_4.php">skills 4</a></li>
+        <li><a href="skills_5.php">skills 5</a></li>
         <li><a href="admin.php">admin</a></li>
         </ul>
         </li>

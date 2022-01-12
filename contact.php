@@ -24,7 +24,7 @@
 <a href="#" class="fa fa-twitter fa-3x"></a>
 <a href="https://www.instagram.com/thomas.dekkerrr/"  target="_blank" class="fa fa-instagram fa-3x"></a>
 <a href="https://www.paypal.com/donate/?hosted_button_id=7KNE7QJ6CVXPY"  target="_blank" class="fa fa-paypal fa-3x"></a>
-<a href="https://www.linkedin.com/in/thomas-dekker-671500220/"  target="_blank" class="fa fa-linkedin fa-3x"></a>
+<a href="https://www.paypal.com/donate/?business=RQYSULXAX9A8A&no_recurring=0&currency_code=USD"  target="_blank"  class="fa fa-american-sign-language-interpreting fa-3x"></a>
 
 
 
