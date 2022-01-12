@@ -7,6 +7,7 @@
 </head>
 <body>
  <?php include 'include/navbar.php'; ?>
+ 
     <h1>Portfolio</h1>
     <div class="hello_text">
             <h2 >hello my name is Thomas dekker.</h2>
