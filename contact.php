@@ -19,11 +19,11 @@
 <br/>
 <br/>
 <br/>
-<a href="#" class="fa fa-envelope fa-3x"></a>
+<a href=mailto:thomas12dekker@gmail.com class="fa fa-envelope fa-3x"></a>
 <a href="https://www.facebook.com/thomas.dekker.1069" class="fa fa-facebook fa-3x"></a>
 <a href="#" class="fa fa-twitter fa-3x"></a>
 <a href="https://www.instagram.com/thomas.dekkerrr/" class="fa fa-instagram fa-3x"></a>
-<a href="https://www.paypal.com/donate?hosted_button_id=WD2WP3FUP4JGG" class="fa fa-paypal fa-3x"></a>
+<a href="https://www.paypal.com/donate/?hosted_button_id=7KNE7QJ6CVXPY" class="fa fa-paypal fa-3x"></a>
 <a href="https://www.linkedin.com/in/thomas-dekker-671500220/" class="fa fa-linkedin fa-3x"></a>
 
 

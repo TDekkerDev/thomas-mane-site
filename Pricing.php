@@ -12,9 +12,9 @@
 <script>
 PayPal.Donation.Button({
 env:'production',
-hosted_button_id:'WD2WP3FUP4JGG',
+hosted_button_id:'7KNE7QJ6CVXPY',
 image: {
-src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+src:'https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif',
 alt:'Donate with PayPal button',
 title:'PayPal - The safer, easier way to pay online!',
 }
