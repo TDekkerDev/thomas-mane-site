@@ -15,6 +15,7 @@ body{
     padding: 0;
 }
 .navbar {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +24,7 @@ body{
     color: #fff;
    }
    .nav-links a {
+    text-decoration: none;
     color: #fff;
    }
    /* LOGO */

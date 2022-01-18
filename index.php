@@ -16,5 +16,6 @@
             <h2> You are free to look around.</h2>
     </div>
     <img src="img/mr-bean-wave.gif" alt="Thomas" width="25%">
+            <h3>Thanks ted for helping</h3>
             
 </html>
