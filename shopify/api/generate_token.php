@@ -1,11 +1,14 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 // Get our helper functions
 require_once("inc/functions.php");
 
 // Set variables for our request
-$api_key = "47fc5710adc35161b20366b0718549e4";
-$shared_secret = "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";
+$api_key = "5af9d94ff0787248461f9f825e1a91c0";
+$shared_secret = "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";
 $params = $_GET; // Retrieve all request parameters
 $hmac = $_GET['hmac']; // Retrieve HMAC request parameter
 
@@ -41,9 +44,10 @@ if (hash_equals($hmac, $computed_hmac)) {
 	$access_token = $result['access_token'];
 
 	// Show the access token (don't do this in production!)
-	//echo $access_token;
+	echo $access_token;
 
 } else {
 	// Someone is trying to be shady!
 	die('This request is NOT from Shopify!');
 }
+?>
