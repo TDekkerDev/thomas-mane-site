@@ -29,4 +29,6 @@
         </nav>
 
     </div>
+    <script src="https://fs7p3pc2f20v.statuspage.io/embed/script.js"></script>
+
     
