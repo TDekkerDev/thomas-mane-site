@@ -1,0 +1,25 @@
+.Fade_scroll_items{
+    display: flex;
+    order: 2;
+}
+.Fade{
+    display: flex;
+    order: 3;
+    flex-flow: space-evenly;
+}
+#jaja{
+width: 600px;
+  
+}
+.spacer{
+    width: 100px;
+}
+
+.spacer_2{
+    width: 350px;
+}
+
+.h2_main
+{
+    display: flex;
+}
