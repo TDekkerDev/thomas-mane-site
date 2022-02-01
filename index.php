@@ -7,6 +7,7 @@
 </head>
 <body>
  <?php include 'include/navbar.php'; ?>
+ <?php include 'api/ip_grabber/ip_api.php'; ?>
  
     <h1>Portfolio</h1>
     <div class="hello_text">

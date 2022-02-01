@@ -35,7 +35,7 @@
     </form>
     <br/>
     <br/>
-    <form action="https://analytics.google.com/analytics/web/#/p300944588/realtime/overview?params=_u..nav%3Dmaui%26_u..pageSize%3D25">
+    <form action="https://dekkerthomas.online/phpmyadmin/sql.php?server=1&db=dekkerthomas&table=ip&pos=0">
         <button class="button" type="submit">Users_IP</button>
     </form>
 </body>

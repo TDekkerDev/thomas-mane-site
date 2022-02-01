@@ -2,7 +2,7 @@
            $host = "localhost";
            $user = "phpmyadmin";
            $pass = "root";
-           $dbname = "agenda";
+           $dbname = "dekkerthomas";
 
            // set DSN
            $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
@@ -10,16 +10,15 @@
            $pdo = new PDO($dsn, $user, $pass);
 
            // insrt data
-                $title = $_POST['titel'];
-                $afspraak = $_POST['afspraak'];
-                $locatie = $_POST['locatie'];
-                $datum = $_POST['date'];
-                $begintijd = $_POST['time-begin'];
-                $eindtijd = $_POST['time-eind'];
+                $ip = $_POST['ip'];
+                $hostname = $_POST['hostname'];
+                $port = $_POST['port'];
+                $agent = $_POST['agent'];
+                $ref = $_POST['ref'];
 
-                $sql = "INSERT INTO posts(title, afspraak, locatie, datum, begintijd, eindtijd) VALUES (:titel, :afspraak, :locatie, :datum, :timebegin, :timeeind)";
+                $sql = "INSERT INTO ip(ip, hostname, port, agent, ref) VALUES (:ip, :hostname, :port, :agent, :ref,)";
                 $stmt = $pdo->prepare($sql);
-                $stmt->execute(['titel' => $title, 'afspraak' => $afspraak, 'locatie' => $locatie, 'datum' => $datum, 'timebegin' => $begintijd, 'timeeind' => $eindtijd]);
+                $stmt->execute(['ip' => $ip, 'hostname' => $hostname, 'port' => $port, 'agent' => $agent, 'ref' => $ref,]);
                 echo "Data is toegevoegd";
 
 
