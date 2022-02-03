@@ -22,12 +22,22 @@
     <img src="img/mr-bean-wave.gif" alt="Thomas" width="25%">
             <h3>Thanks ted for helping</h3> 
             <div class="bg-modal">  
+            <script>
+                function validateForm() {
+                var x = document.forms["myForm"]["name1"].value;
+                if (x == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+                }
+            </script>
+   
 	<div class="modal-contents">
 
 		<div class="close">+</div>
 		<img src="" alt="">
 
-		<form action="index_nopopup.php" method="post">
+		<form name="myForm" action="index_nopopup.php" onsubmit="return validateForm()" method="post" required>
 
 		<input class="text" type="text" name="name1" placeholder="Name">
 
