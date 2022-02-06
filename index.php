@@ -41,7 +41,7 @@
 
 		<input class="text" type="text" name="name1" placeholder="Name">
 
-	    <input type="submit" id="botton_2" class="button" value="verstuur">
+	    <input type="submit" id="botton_2" class="button" value="send">
 
 		</form>
 

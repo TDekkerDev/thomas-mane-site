@@ -8,7 +8,7 @@
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <!-- NAVIGATION MENUS -->
         <div class="menu">
-        <li><a href="index.php">Home</a></li>
+        <li><a href="index_nopopup2.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li class="services">
         <a href="skills.php">skills</a>

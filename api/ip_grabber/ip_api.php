@@ -18,8 +18,8 @@ $ref = $_SERVER['HTTP_REFERER'] ?: '';
 $hostname = gethostbyaddr($ip);
 $name1 = $_POST['name1'];
 $host = "localhost";
-$user = "phpmyadmin";
-$pass = "root";
+$user = "api";
+$pass = "Thomasdekker197";
 $dbname = "dekkerthomas";
 
 // set DSN
