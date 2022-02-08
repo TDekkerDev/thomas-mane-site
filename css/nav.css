@@ -50,6 +50,7 @@ body{
     position: relative; 
    }
    .dropdown {
+    list-style-type: none;
     background-color: #352838;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
@@ -58,17 +59,21 @@ body{
     top: 30px;
    }
    .dropdown li + li {
+    list-style-type: none;
     margin-top: 10px;
    }
    .dropdown li {
+    list-style-type: none;
     padding: 0.5em 1em;
     width: 8em;
     text-align: center;
    }
    .dropdown li:hover {
+    list-style-type: none;
     background-color: #352838;
    }
    .services:hover .dropdown {
+    list-style-type: none;
     display: block;
    }
 

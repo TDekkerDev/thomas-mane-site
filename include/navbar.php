@@ -19,7 +19,7 @@
         <li><a href="skills/skills_3.php">skills 3</a></li>
         <li><a href="skills/skills_4.php">skills 4</a></li>
         <li><a href="skills/skills_5.php">skills 5</a></li>
-        <li><a href="skills/admin.php">admin</a></li>
+        <li><a href="skills/log_in.php">admin</a></li>
         </ul>
         </li>
         <li><a href="Pricing.php">Pricing</a></li>

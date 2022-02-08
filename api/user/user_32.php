@@ -16,18 +16,17 @@ $port = $_SERVER['REMOTE_PORT'];
 $agent = $_SERVER['HTTP_USER_AGENT'];
 $ref = $_SERVER['HTTP_REFERER'] ?: '';
 $hostname = gethostbyaddr($ip);
-$name1 = $_POST['name1'];
+
+
+
 $host = "localhost";
 $user = "api";
 $pass = "Thomasdekker197";
 $dbname = "dekkerthomas";
 
-// set DSN
 $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
 
 $pdo = new PDO($dsn, $user, $pass);
-
-// insrt data
 
      $sql = "INSERT INTO ip(name1, ip, hostname, port, agent, ref) VALUES (:name1, :ip, :hostname, :port, :agent, :ref)";
      $stmt = $pdo->prepare($sql);

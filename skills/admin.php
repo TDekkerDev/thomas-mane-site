@@ -7,22 +7,7 @@
 </head>
 <body>
 <?php include '../include/navbar_skills.php'; ?>
-<script language="JavaScript">
-        <!--hide
-        var password;
-        var pass1="ROOT";
-        password=prompt("Enter your password","");
-        if (password==pass1)
-        {
-            alert("Access Granted");
-        }
-        else
-        {
-            alert("Access Denied");
-            location.reload();
-        }
-        -->
-    </script>
+
     <h1>Admin</h1>
     <img src="../img/David.png" alt="admin" width="10%">
     <form action="https://manage.statuspage.io/pages/fs7p3pc2f20v/incidents">

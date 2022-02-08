@@ -7,7 +7,13 @@
 </head>
 <body>
  <?php include 'include/navbar.php'; ?>
- <?php include 'api/ip_grabber/ip_api.php'; ?>
+ <?php $name1 = $_POST['name1']; ?>
+ <?php if ($name1 == "thomas") {
+ } else {
+     include 'api/user/user_32.php';
+ }
+ ?>
+
  
     <h1>Portfolio</h1>
     <div class="hello_text">
