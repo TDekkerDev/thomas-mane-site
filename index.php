@@ -11,7 +11,10 @@
 </head>
 <body>
  <?php include 'include/navbar.php'; ?>
- <!-- include 'api/ip_grabber/ip_api.php'; -->
+
+
+
+
     <h1>Portfolio</h1>
     <div class="hello_text">
             <h2 >hello my name is Thomas dekker.</h2>
@@ -22,6 +25,15 @@
     <img src="img/mr-bean-wave.gif" alt="Thomas" width="25%">
             <h3>Thanks ted for helping</h3> 
             <div class="bg-modal">  
+
+
+
+
+
+
+
+
+
             <script>
                 function validateForm() {
                 var x = document.forms["myForm"]["name1"].value;

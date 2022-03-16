@@ -8,7 +8,7 @@
 <body>
  <?php include 'include/navbar.php'; ?>
  
-    <h1>Portfolio</h1>
+    <!-- <h1>Portfolio</h1>
     <div class="hello_text">
             <h2> Hello my name is Thomas dekker.</h2>
             <h2> I am a software engineer in training.</h2>
@@ -17,5 +17,8 @@
     </div>
     <img src="img/mr-bean-wave.gif" alt="Thomas" width="25%">
             <h3>Thanks ted for helping</h3>
-            
+             -->
+            <video autoplay id="myVideo">
+                <source src="media/main.mp4" type="video/mp4">
+            </video>
 </html>
